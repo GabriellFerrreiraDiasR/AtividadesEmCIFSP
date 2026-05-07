@@ -12,55 +12,55 @@ int main(){
     switch(op){
         case 'q':
         
-        printf("Digite o lado 1: ");
-        scanf("%f",base);
+            printf("Digite o lado 1: ");
+            scanf("%f",base);
 
-        printf("Digite o lado 2: ");
-        scanf("%f",  altura);
+            printf("Digite o lado 2: ");
+            scanf("%f",  altura);
 
-        calculo = base * altura;
+            calculo = base * altura;
 
-        printf("A area é: %.2f", calculo);
-        break;
+            printf("A area é: %.2f", calculo);
+            break;
 
         case 't':
         
-        printf("Digite a base: ");
-        scanf("%f",base);
+            printf("Digite a base: ");
+            scanf("%f",base);
 
-        printf("Digite a altura: ");
-        scanf("%f",  altura);
+            printf("Digite a altura: ");
+            scanf("%f",  altura);
 
-        calculo = (base * altura)/2;
+            calculo = (base * altura)/2;
 
-        printf("A area é: %.2f", calculo);
-        break;
+            printf("A area é: %.2f", calculo);
+            break;
 
         case 'r':
         
-        printf("Digite a base: ");
-        scanf("%f",base);
+            printf("Digite a base: ");
+            scanf("%f",base);
 
-        printf("Digite a altura: ");
-        scanf("%f",  altura);
+            printf("Digite a altura: ");
+            scanf("%f",  altura);
 
-        calculo = base * altura;
+            calculo = base * altura;
 
-        printf("A area é: %.2f", calculo);
-        break;
+            printf("A area é: %.2f", calculo);
+            break;
 
         case 'c':
         
-        printf("Digite o raio: ");
-        scanf("%f",raio);
+            printf("Digite o raio: ");
+            scanf("%f",raio);
 
-        calculo = pow(raio, 2)* 3,14;
+            calculo = pow(raio, 2)* 3,14;
 
-        printf("A area é: %.2f", calculo);
-        break;
+            printf("A area é: %.2f", calculo);
+            break;
 
         default:
-        break;
+            break;
     }
 
     return 0;
